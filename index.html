@@ -32,31 +32,61 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>TRINH LAM HOANG THINH</h1>
-            <div class="hero-title">
-                <span class="static-text">I'm a </span>
-                <span class="dynamic-text" data-words='["Data Analyst", "AI Developer", "Software Engineer"]'></span>
+<section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="particles" id="particles-js"></div>
+    <div class="hero-content">
+        <div class="profile-img">
+            <!-- Thêm ảnh đại diện của bạn -->
+            <img src="assets\profile.png" alt="Trinh Lam Hoang Thinh">
+        </div>
+        <h1 class="glitch" data-text="TRINH LAM HOANG THINH">TRINH LAM HOANG THINH</h1>
+        <div class="hero-title">
+            <span class="static-text">I'm a </span>
+            <span class="dynamic-text" data-words='["Data Analyst", "AI Developer", "Software Engineer"]'></span>
+            <span class="cursor">|</span>
+        </div>
+        <p class="hero-tagline">Transforming Complex Data into Actionable Insights</p>
+        <div class="cta-buttons">
+            <a href="#projects" class="btn primary">
+                <span class="btn-content">
+                    <i class="fas fa-project-diagram"></i>
+                    View Projects
+                </span>
+            </a>
+            <a href="#contact" class="btn secondary">
+                <span class="btn-content">
+                    <i class="fas fa-paper-plane"></i>
+                    Let's Connect
+                </span>
+            </a>
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/HoangThinh2024" target="_blank" title="GitHub" class="social-btn">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+            </a>
+            <a href="mailto:trinhlamhoangthinh336@gmail.com" title="Email" class="social-btn">
+                <i class="fas fa-envelope"></i>
+                <span>Email</span>
+            </a>
+            <a href="https://hoangthinh2024.github.io/Resume/resume.html" target="_blank" title="View CV" class="social-btn">
+                <i class="fas fa-file-alt"></i>
+                <span>Resume</span>
+            </a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
             </div>
-            <p class="hero-tagline">Transforming Complex Data into Actionable Insights</p>
-            <div class="cta-buttons">
-                <a href="#projects" class="btn primary">View Projects</a>
-                <a href="#contact" class="btn secondary">Let's Connect</a>
-            </div>
-            <div class="social-links">
-                <a href="https://github.com/HoangThinh2024" target="_blank" title="GitHub">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="mailto:trinhlamhoangthinh336@gmail.com" title="Email">
-                    <i class="fas fa-envelope"></i>
-                </a>
-                <a href="https://hoangthinh2024.github.io/Resume/resume.html" target="_blank" title="View CV">
-                    <i class="fas fa-file-alt"></i>
-                </a>
+            <div class="arrow-scroll">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- About Section -->
     <section id="about" class="about">
@@ -184,11 +214,11 @@
         <div class="skills-container">
             <!-- Programming Languages -->
             <div class="skill-category">
-                <h3>Programming Languages</h3>
+                <h3><i class="fas fa-code"></i> Programming Languages</h3>
                 <div class="skill-grid">
                     <div class="skill-item">
                         <div class="skill-info">
-                            <span>Python</span>
+                            <span><i class="fab fa-python"></i> Python</span>
                             <span>90%</span>
                         </div>
                         <div class="progress-bar">
@@ -197,7 +227,7 @@
                     </div>
                     <div class="skill-item">
                         <div class="skill-info">
-                            <span>C#</span>
+                            <span><i class="fab fa-microsoft"></i> C#</span>
                             <span>85%</span>
                         </div>
                         <div class="progress-bar">
@@ -206,7 +236,7 @@
                     </div>
                     <div class="skill-item">
                         <div class="skill-info">
-                            <span>JavaScript</span>
+                            <span><i class="fab fa-js"></i> JavaScript</span>
                             <span>88%</span>
                         </div>
                         <div class="progress-bar">
@@ -215,7 +245,7 @@
                     </div>
                     <div class="skill-item">
                         <div class="skill-info">
-                            <span>PHP</span>
+                            <span><i class="fab fa-php"></i> PHP</span>
                             <span>85%</span>
                         </div>
                         <div class="progress-bar">
@@ -227,11 +257,11 @@
 
             <!-- Frameworks & Libraries -->
             <div class="skill-category">
-                <h3>Frameworks & Libraries</h3>
+                <h3><i class="fas fa-layer-group"></i> Frameworks & Libraries</h3>
                 <div class="skill-grid">
                     <div class="skill-item">
                         <div class="skill-info">
-                            <span>TensorFlow</span>
+                            <span><i class="fas fa-code"></i> TensorFlow</span>
                             <span>90%</span>
                         </div>
                         <div class="progress-bar">
@@ -240,7 +270,7 @@
                     </div>
                     <div class="skill-item">
                         <div class="skill-info">
-                            <span>PyTorch</span>
+                            <span><i class="fas fa-fire"></i> PyTorch</span>
                             <span>88%</span>
                         </div>
                         <div class="progress-bar">
@@ -249,7 +279,7 @@
                     </div>
                     <div class="skill-item">
                         <div class="skill-info">
-                            <span>.NET Core</span>
+                            <span><i class="fab fa-microsoft"></i> .NET Core</span>
                             <span>85%</span>
                         </div>
                         <div class="progress-bar">
@@ -258,7 +288,7 @@
                     </div>
                     <div class="skill-item">
                         <div class="skill-info">
-                            <span>Blazor</span>
+                            <span><i class="fab fa-microsoft"></i> Blazor</span>
                             <span>85%</span>
                         </div>
                         <div class="progress-bar">
@@ -270,11 +300,11 @@
 
             <!-- AI & ML Tools -->
             <div class="skill-category">
-                <h3>AI & ML Tools</h3>
+                <h3><i class="fas fa-brain"></i> AI & ML Tools</h3>
                 <div class="skill-grid">
                     <div class="skill-item">
                         <div class="skill-info">
-                            <span>Computer Vision</span>
+                            <span><i class="fas fa-eye"></i> Computer Vision</span>
                             <span>90%</span>
                         </div>
                         <div class="progress-bar">
@@ -283,7 +313,7 @@
                     </div>
                     <div class="skill-item">
                         <div class="skill-info">
-                            <span>NLP</span>
+                            <span><i class="fas fa-comments"></i> NLP</span>
                             <span>88%</span>
                         </div>
                         <div class="progress-bar">
@@ -292,7 +322,7 @@
                     </div>
                     <div class="skill-item">
                         <div class="skill-info">
-                            <span>Deep Learning</span>
+                            <span><i class="fas fa-network-wired"></i> Deep Learning</span>
                             <span>85%</span>
                         </div>
                         <div class="progress-bar">
@@ -301,7 +331,7 @@
                     </div>
                     <div class="skill-item">
                         <div class="skill-info">
-                            <span>Data Analytics</span>
+                            <span><i class="fas fa-chart-line"></i> Data Analytics</span>
                             <span>90%</span>
                         </div>
                         <div class="progress-bar">
@@ -313,11 +343,11 @@
 
             <!-- Development Tools -->
             <div class="skill-category">
-                <h3>Development Tools</h3>
+                <h3><i class="fas fa-tools"></i> Development Tools</h3>
                 <div class="skill-grid">
                     <div class="skill-item">
                         <div class="skill-info">
-                            <span>Git & GitHub</span>
+                            <span><i class="fab fa-github"></i> Git & GitHub</span>
                             <span>90%</span>
                         </div>
                         <div class="progress-bar">
@@ -326,7 +356,7 @@
                     </div>
                     <div class="skill-item">
                         <div class="skill-info">
-                            <span>Docker</span>
+                            <span><i class="fab fa-docker"></i> Docker</span>
                             <span>85%</span>
                         </div>
                         <div class="progress-bar">
@@ -335,7 +365,7 @@
                     </div>
                     <div class="skill-item">
                         <div class="skill-info">
-                            <span>Visual Studio</span>
+                            <span><i class="fas fa-code-branch"></i> Visual Studio</span>
                             <span>88%</span>
                         </div>
                         <div class="progress-bar">
@@ -344,7 +374,59 @@
                     </div>
                     <div class="skill-item">
                         <div class="skill-info">
-                            <span>Azure DevOps</span>
+                            <span><i class="fab fa-microsoft"></i> Azure DevOps</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Soft Skills -->
+            <div class="skill-category">
+                <h3><i class="fas fa-users"></i> Soft Skills</h3>
+                <div class="skill-grid">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span><i class="fas fa-lightbulb"></i> Analytical Thinking</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span><i class="fas fa-puzzle-piece"></i> Problem-Solving</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span><i class="fas fa-comments"></i> Communication</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 88%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span><i class="fas fa-users"></i> Teamwork</span>
+                            <span>92%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 92%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span><i class="fas fa-crown"></i> Leadership</span>
                             <span>85%</span>
                         </div>
                         <div class="progress-bar">
@@ -354,102 +436,62 @@
                 </div>
             </div>
         </div>
-        <div class="skill-category">
-        <h3>Soft Skills</h3>
-        <div class="skill-grid">
-            <div class="skill-item">
-                <div class="skill-info">
-                    <span>Analytical Thinking</span>
-                    <span>95%</span>
-                </div>
-                <div class="progress-bar">
-                    <div class="progress" style="width: 95%"></div>
-                </div>
-            </div>
-            <div class="skill-item">
-                <div class="skill-info">
-                    <span>Problem-Solving</span>
-                    <span>90%</span>
-                </div>
-                <div class="progress-bar">
-                    <div class="progress" style="width: 90%"></div>
-                </div>
-            </div>
-            <div class="skill-item">
-                <div class="skill-info">
-                    <span>Communication</span>
-                    <span>88%</span>
-                </div>
-                <div class="progress-bar">
-                    <div class="progress" style="width: 88%"></div>
-                </div>
-            </div>
-            <div class="skill-item">
-                <div class="skill-info">
-                    <span>Teamwork</span>
-                    <span>92%</span>
-                </div>
-                <div class="progress-bar">
-                    <div class="progress" style="width: 92%"></div>
-                </div>
-            </div>
-            <div class="skill-item">
-                <div class="skill-info">
-                    <span>Leadership</span>
-                    <span>85%</span>
-                </div>
-                <div class="progress-bar">
-                    <div class="progress" style="width: 85%"></div>
-                </div>
-            </div>
-        </div>
-            </div>
     </div>
 </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Contact me</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h3>Location</h3>
-                            <p>Ba Thang Hai, Ward 10, District 10, Ho Chi Minh City</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h3>Email</h3>
-                            <p><a href="mailto:trinhlamhoangthinh336@gmail.com">trinhlamhoangthinh336@gmail.com</a></p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h3>Phone</h3>
-                            <p>+84 901 848 917</p>
-                        </div>
+<section id="contact" class="contact">
+    <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Location</h3>
+                        <p>Ba Thang Hai, Ward 10, District 10, Ho Chi Minh City</p>
                     </div>
                 </div>
-                <form class="contact-form">
-                    <div class="form-group">
-                        <input type="text" placeholder="Your Name" required>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p><a href="mailto:trinhlamhoangthinh336@gmail.com">trinhlamhoangthinh336@gmail.com</a></p>
                     </div>
-                    <div class="form-group">
-                        <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3>Phone</h3>
+                        <p><a href="tel:+84901848917">+84 901 848 917</a></p>
                     </div>
-                    <div class="form-group">
-                        <textarea placeholder="Your Message" required></textarea>
-                    </div>
-                    <button type="submit" class="btn primary">Send Message</button>
-                </form>
+                </div>
+
             </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" placeholder="Enter subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" placeholder="Enter your message" required></textarea>
+                </div>
+                <button type="submit" class="btn primary">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+            </form>
         </div>
-    </section>
+    </div>
+</section>
 
     <footer class="footer">
         <div class="container">
@@ -458,5 +500,7 @@
     </footer>
 
     <script src="script.js"></script>
+    <!-- Thêm trước thẻ đóng body -->
+    <script src="particles-config.js"></script>
 </body>
 </html>
