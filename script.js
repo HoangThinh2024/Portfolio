@@ -53,12 +53,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     window.addEventListener('scroll', () => {
         const currentScroll = window.pageYOffset;
-
+    
         if (currentScroll <= 0) {
             navbar.classList.remove('scroll-up');
+            navbar.classList.remove('scroll-down');
             return;
         }
-
+    
         if (currentScroll > lastScroll && !navbar.classList.contains('scroll-down')) {
             navbar.classList.remove('scroll-up');
             navbar.classList.add('scroll-down');
